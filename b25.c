@@ -2,10 +2,10 @@
 #include <math.h>
 int main()
 {
-    int x,y,z;
+    float x,z;
     printf("enter the number :\n");
-    scanf("%d",&x);
+    scanf("%f",&x);
     z=sqrt(x);
-    printf("%d",z);
+    printf("%f",z);
     return 0;
 }
